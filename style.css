@@ -1,0 +1,136 @@
+body{
+  overflow: hidden;
+}
+.container2{
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows:40% auto;
+  grid-template-columns:auto 15%;
+  background: #CACAD1;
+  transition: 1s;
+  z-index: 2;
+  position: fixed;
+}
+.items{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+h2{
+  rotate: 90deg;
+  font-size: 200%;
+  color: #FFFFFF;
+}
+.bar2{
+  display: flex;
+  rotate: 90deg;
+  border-radius: 10px;
+  width: 300px;
+  position: relative;
+  width: 500px;
+  height: 50px;
+}
+.bar2 span{
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  color:#EEEFFF;
+}
+.active{
+  background: #FFFFFF;
+  color: black !important;
+}
+.nav{
+  background: #1F2246;;
+}
+.bu{
+  height: 50px;
+  width: 150px;
+  rotate :90deg;
+  background: crimson;
+  border: none;
+  border-radius: 10px;
+  translate: -50px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  top:0;
+  font-size: 1.5em;
+}
+
+.items h3{
+  rotate: 90deg;
+  font-size: 1.5em;
+  position: absolute;
+  transform:translate(20px,-20px);
+}
+.close{
+  z-index: -1;
+  opacity: 0;
+  scale: 2;
+}
+.items img{
+  rotate: 90deg;
+  height: 250px;
+  width: 250px;
+}
+.about{
+  opacity: 0;
+  position: absolute;
+  rotate: 90deg;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5em;
+}
+h6{
+  background: #F4F5FD;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 12px 5px #423E3E;
+}
+p4{
+  display: flex;
+  position: absolute;
+  justify-self: center;
+  align-self: center ;
+  rotate: 90deg;
+  opacity: 0;
+}
+.percent{
+  opacity: 0;
+  border-radius: 15px;
+  height: 15px;
+  width: 500px;
+  rotate: 90deg;
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  border: 1px solid black;
+  translate: -20px;
+  justify-content: center;
+  overflow: hidden;
+}
+.percent div{
+  text-align: center;
+  line-height: 15px;
+}
+.html{
+  background: #FE2525;
+  height: 15px;
+  width: 219px;
+}
+.css{
+  background: #0FA8FA;
+  height: 15px;
+  width: 685px;
+}
+.js{
+  background: #FFF806;
+  height: 15px;
+  width: 302px;
+}
